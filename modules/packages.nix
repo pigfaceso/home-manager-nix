@@ -1,21 +1,18 @@
 { pkgs, flyline, ... }:
 
-let
-  flylinePkg = flyline.packages.${pkgs.system}.flyline;
-in
 {
   home.packages = with pkgs; [
-    flylinePkg
 
-    # Find tools
+    bat
+    direnv
     fd
+    fzf
+    kew
     ripgrep
     yazi
+    zoxide
 
-    # General
-    watchexec
-    bat
-    kew
+    # Editor
     tree-sitter
     neovim
 
