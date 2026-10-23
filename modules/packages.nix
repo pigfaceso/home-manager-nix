@@ -1,23 +1,30 @@
-{ pkgs, flyline, ... }:
+{ pkgs, ... }:
 
 {
   home.packages = with pkgs; [
 
+    # Utils
     bat
     direnv
-    fd
-    fzf
-    kew
-    ripgrep
-    yazi
     zoxide
+    tree-sitter
+    localsend
+
+    # Finder
+    fzf
+    fd
+    ripgrep
 
     # Editor
-    tree-sitter
     neovim
+
+    # File manager
+    yazi
+    nnn
 
     # System/Disk
     fastfetch
+    htop
     btop
     dua
 
@@ -26,6 +33,18 @@
     forgejo-cli
     lazygit
     delta
+
+    # Termianal Emulator
+    foot
+    alacritty
+
+    # Image Preview
+    ueberzugpp
+    imv
+
+    # Sound/Audio
+    kew
+    vlc
 
     # Learn
     bootdev-cli

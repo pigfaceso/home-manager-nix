@@ -29,9 +29,12 @@
   };
 
   home.sessionVariables = {
+    # EDITOR="nvim";
+    # VISUAL="nvim";
   };
 
   home.sessionPath = [
+    "$HOME/.npm-global/bin"
   ];
 
   # Setting to work better wiht non-NixOS
@@ -67,14 +70,13 @@
     # ./modules/editors/zed.nix
 
     # Desktop
-    ./modules/desktop/localsend.nix
     # ./modules/desktop/rio.nix
     # ./modules/desktop/ghostty.nix
     # ./modules/desktop/vesktop.nix
     # ./modules/desktop/vicinae.nix
     # ./modules/desktop/alacritty.nix
-    # ./modules/desktop/vlc.nix
-    # ./modules/desktop/obs-studio.nix
+    ./modules/desktop/vlc.nix
+    ./modules/desktop/obs-studio.nix
     # ./modules/desktop/onlyoffice.nix
 
     # Services
