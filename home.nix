@@ -62,7 +62,7 @@
     # ./modules/cli/tmux.nix
     # ./modules/cli/direnv.nix
     # ./modules/cli/starship.nix
-    # ./modules/cli/newsboat.nix
+    ./modules/cli/newsboat.nix
     # ./modules/cli/atuin.nix
 
     # Editors
@@ -70,7 +70,6 @@
     # ./modules/editors/zed.nix
 
     # Desktop
-    # ./modules/desktop/rio.nix
     # ./modules/desktop/ghostty.nix
     # ./modules/desktop/vesktop.nix
     # ./modules/desktop/vicinae.nix
@@ -84,9 +83,9 @@
     # ./modules/services/ollama.nix
 
     # Development
-    ./modules/development/node.nix
+    ./modules/development/npm.nix
     ./modules/development/bun.nix
-    # ./modules/development/python.nix
+    ./modules/development/python.nix
     # ./modules/development/go.nix
     # ./modules/development/rust.nix
     # ./modules/development/ruby.nix
