@@ -36,7 +36,8 @@
 
     # Termianal Emulator
     foot
-    alacritty
+    # alacritty
+    alacritty-graphics
     ghostty
 
     # Image Preview
