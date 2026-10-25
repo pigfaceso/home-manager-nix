@@ -37,6 +37,7 @@
     # Termianal Emulator
     foot
     alacritty
+    ghostty
 
     # Image Preview
     ueberzugpp

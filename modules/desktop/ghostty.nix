@@ -10,7 +10,7 @@
       shell-integration = "none";
       bell-features = "no-system";
       font-family = "AdwaitaMono Nerd Font";
-      font-size = 12;
+      font-size = 14;
       cursor-style = "block";
       cursor-style-blink = false;
       window-padding-x = "1,1";
