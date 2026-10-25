@@ -35,10 +35,10 @@
     delta
 
     # Termianal Emulator
-    foot
     # alacritty
+    # ghostty
+    foot
     alacritty-graphics
-    ghostty
 
     # Image Preview
     ueberzugpp
