@@ -10,9 +10,9 @@
 
     # Color
     color listnormal        white black
-    color listnormal_unread white black
-    color listfocus         black yellow bold
-    color listfocus_unread  black white bold
+    color listnormal_unread yellow black
+    color listfocus         black white bold
+    color listfocus_unread  black yellow bold
     color info              yellow black
     color background        white black
     color article           white black
