@@ -1,6 +1,6 @@
 { config, pkgs, ... }:
 { 
-  home.username = "wonwow"; 
+  home.username = "wonwow";
   home.homeDirectory = "/home/wonwow";
   home.stateVersion = "26.05";
 
@@ -67,7 +67,7 @@
 
     # Editors
     # ./modules/editors/neovim/init.nix
-    # ./modules/editors/zed.nix
+    ./modules/editors/zed.nix
 
     # Desktop
     # ./modules/desktop/ghostty.nix
@@ -86,6 +86,7 @@
     ./modules/development/npm.nix
     ./modules/development/bun.nix
     ./modules/development/python.nix
+    ./modules/development/laravel.nix
     # ./modules/development/go.nix
     # ./modules/development/rust.nix
     # ./modules/development/ruby.nix

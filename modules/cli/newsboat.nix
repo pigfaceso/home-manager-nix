@@ -76,12 +76,24 @@
         url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml";
       }
       {
+        title = "NIST News";
+        url = "https://www.nist.gov/news-events/news/rss.xml";
+      }
+      {
+        title = "NIST Events";
+        url = "https://www.nist.gov/news-events/events/rss.xml";
+      }
+      {
         title = "Cloudflare";
         url = "https://blog.cloudflare.com/rss/";
       }
       {
         title = "LWN.net";
         url = "https://lwn.net/headlines/rss";
+      }
+      {
+        title = "Techcrunch";
+        url = "https://techcrunch.com/feed/";
       }
       {
         title = "It's FOSS";
