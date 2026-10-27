@@ -9,6 +9,8 @@
     zoxide
     tree-sitter
     localsend
+    rclone
+    rclone-ui
 
     # Finder
     fzf
