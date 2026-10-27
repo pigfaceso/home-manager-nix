@@ -26,10 +26,75 @@
     bind-key L next-feed
     '';
     urls = [
-      { title = "LWn.net"; url = "https://lwn.net/headlines/rss"; }
-      { title = "It's FOSS"; url = "https://itsfoss.com/rss"; }
-      { title = "bleepingcomputer"; url = "https://www.bleepingcomputer.com/feed"; }
-      { title = "The Hacker News"; url = "https://feeds.feedburner.com/TheHackersNews"; }
+      {
+        tags = [
+          "AI"
+        ];
+        title = "Huggingface";
+        url = "https://huggingface.co/blog/feed.xml";
+      }
+      {
+        tags = [
+          "AI"
+        ];
+        title = "Google Deepmind";
+        url = "https://deepmind.google/blog/rss.xml";
+      }
+      {
+        tags = [
+          "AI"
+        ];
+        title = "OpenAI News";
+        url = "https://openai.com/news/rss.xml";
+      }
+      {
+        tags = [
+          "AI"
+        ];
+        title = "OpenAI Engineering";
+        url = "https://openai.com/news/engineering/rss.xml";
+      }
+      {
+        tags = [
+          "AI"
+        ];
+        title = "Anthropic News";
+        url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml";
+      }
+      {
+        tags = [
+          "AI"
+        ];
+        title = "Anthropic Research";
+        url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml";
+      }
+      {
+        tags = [
+          "AI"
+        ];
+        title = "Anthropic Engineering";
+        url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml";
+      }
+      {
+        title = "Cloudflare";
+        url = "https://blog.cloudflare.com/rss/";
+      }
+      {
+        title = "LWN.net";
+        url = "https://lwn.net/headlines/rss";
+      }
+      {
+        title = "It's FOSS";
+        url = "https://itsfoss.com/rss";
+      }
+      {
+        title = "Bleepingcomputer";
+        url = "https://www.bleepingcomputer.com/feed";
+      }
+      {
+        title = "The Hacker News";
+        url = "https://feeds.feedburner.com/TheHackersNews";
+      }
     ];
   };
 }
