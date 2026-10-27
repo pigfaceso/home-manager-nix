@@ -5,6 +5,7 @@
 
     # Utils
     bat
+    tmux
     direnv
     zoxide
     tree-sitter
