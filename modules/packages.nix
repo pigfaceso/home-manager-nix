@@ -12,6 +12,7 @@
     localsend
     rclone
     rclone-ui
+    imagemagik
 
     # Finder
     fzf
